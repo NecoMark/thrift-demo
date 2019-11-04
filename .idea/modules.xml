@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/javarpc/javarpc.iml" filepath="$PROJECT_DIR$/javarpc/javarpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyrpc/pyrpc.iml" filepath="$PROJECT_DIR$/pyrpc/pyrpc.iml" />
+    </modules>
+  </component>
+</project>
