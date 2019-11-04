@@ -56,6 +56,8 @@ public class ServerMain {
         //根据args创建一个指定类型的server
         TServer tServer = new TThreadedSelectorServer(tArgs);
         tServer.serve();
-
+        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+            tServer.stop();
+        }));
     }
 }
